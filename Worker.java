@@ -4,7 +4,7 @@ public class Worker extends Character{
     Move move;
 
     public Worker(Move move) {
-        this.move = move;
+        super(move);
     }
 
     @Override

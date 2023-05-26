@@ -4,7 +4,7 @@ public class Villager extends Character{
     Move move;
 
     public Villager(Move move) {
-        this.move = move;
+        super(move);
     }
 
     @Override
